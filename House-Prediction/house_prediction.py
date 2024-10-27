@@ -1,9 +1,7 @@
 import joblib
 import streamlit as st
-import os
 
-# Load the pre-trained model with error handling
-model_path = os.path.join("House-Prediction", "rf_model.joblib")
+model = joblib.load("House-Prediction/rf_model.pkl")
 
 def main():
     st.title("House Price Prediction")
