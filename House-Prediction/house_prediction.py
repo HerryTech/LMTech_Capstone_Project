@@ -2,7 +2,7 @@ import joblib
 import streamlit as st
 
 # Load the pre-trained model
-model = joblib.load("C:/Users/USER/Desktop/House-Prediction/rf_model.joblib")
+model = joblib.load("House-Prediction/rf_model.joblib")
 
 def main():
     st.title("House Price Prediction")
