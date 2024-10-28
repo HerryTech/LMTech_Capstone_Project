@@ -12,15 +12,15 @@ Deployment: Make the model available for use in real-time predictions.
 ### Dataset
 The dataset used in this project contains various attributes that can influence house prices, including but not limited to:
 
-Location: Geographical location or neighborhood.
-Square Footage: Total area of the house.
-Number of Bedrooms and Bathrooms.
-Age of the Property.etc.
+- Location: Geographical location or neighborhood.
+- Square Footage: Total area of the house.
+- Number of Bedrooms and Bathrooms.
+- Age of the Property.etc.
 
 #### Getting Started
 Prerequisites
 To run the project, you will need:
 
-Python 3.8+
-Git LFS (for handling large model files if required)
-Required libraries listed in requirements.txt
+- Python 3.8+
+- Git LFS (for handling large model files if required)
+- Required libraries listed in requirements.txt
