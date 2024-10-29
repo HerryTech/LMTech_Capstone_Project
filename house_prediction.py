@@ -82,7 +82,7 @@ def main():
                                               lat, long, sqft_living15, sqft_lot15]])
             
             result = make_prediction
-            st.success(f'The price of the house is ${result[0]:,.0f}')
+            st.success(f'The price of the house is the range of ${result[0]:,.0f}')
         else:
             st.error("Please correct the errors above before submitting.")
 
