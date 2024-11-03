@@ -2,7 +2,7 @@ import joblib
 import streamlit as st
 
 # Load the pre-trained model
-model = joblib.load("C:/Users/USER/Desktop/House-Prediction/rf_model.pkl")
+model = joblib.load("rf_model.pkl")
 
 def main():
     st.title("House Price Prediction")
@@ -82,7 +82,7 @@ def main():
                                               lat, long, sqft_living15, sqft_lot15]])
             
             result = make_prediction
-            st.success(f'The price of the house is ${result[0]:,.0f}')
+            st.success(f'The price of the house is in the range of ${result[0]:,.0f}')
         else:
             st.error("Please correct the errors above before submitting.")
 
