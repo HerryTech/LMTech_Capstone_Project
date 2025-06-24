@@ -1,5 +1,4 @@
 # LMTech Capstone Project: House Price Prediction
-Overview
 This project is a house price prediction model developed as part of the LMTech Capstone Project. The goal is to accurately predict house prices based on various features, including location, size, number of rooms, and other attributes. Using machine learning algorithms, I aim to build a model that provides reliable price predictions, aiding potential buyers, real estate agents, and analysts.
 
 ### Project Objectives
